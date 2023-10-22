@@ -1,0 +1,75 @@
+/*reset first*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+#userinput{
+    height: 35px;
+    width: 350px;
+    display: inline-block;
+}
+
+body{
+    min-height: 100%;
+    background: radial-gradient(white,grey);
+    font-family: 'Lilita One', cursive;
+}
+
+
+.header{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    height: 50px;
+    background: linear-gradient(black, grey);
+    color: white;
+    border-radius: 10px 10px 0 0;
+    font-size: 22px
+}
+
+span{
+    border-bottom: dashed 2px white;
+    display: block;
+    height: 90%;
+    width: 100%;
+    
+}
+
+
+input[type="checkbox"]{
+    position: relative;
+    top: 14px;
+    right: 12px;
+    float: right;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+    width: 100%;
+    float: left;
+}
+
+label{
+    float: left;
+    padding: 10px;
+    width: 90%;
+    
+}
+
+.grey{
+    
+    background: rgba(0,0,50, .1);
+}
+
